@@ -5,12 +5,12 @@ $ git clone https://github.com/yinjimmy/sdkbox-youtube-sample.git
 $ git submodule update --init
 ```
 
-Do not want submodule
+Do not want to fetch submodule
 ---
 ```
 $ ln -sv /Applications/Cocos/frameworks/cocos2d-x-3.6 cocos2d-x-3.6-lib
 ```
 
-Why not with cocos framework 3.8
+Why not use cocos framework 3.8
 ---
 libcocos2d iOS.a > 100 MB
