@@ -1,4 +1,9 @@
-# Plugin with cocos framework 3.6
+# youtube plugin with cocos framework 3.6
+
+```
+$ git clone https://github.com/yinjimmy/sdkbox-youtube-sample.git
+$ git submodule update --init
+```
 
 Do not want submodule
 ---
