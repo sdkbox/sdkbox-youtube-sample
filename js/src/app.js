@@ -20,12 +20,31 @@ var HelloWorldLayer = cc.Layer.extend({
         cc.MenuItemFont.setFontSize(32);
 
         var menu = new cc.Menu(
-            new cc.MenuItemFont("clickme", this.onClicked, this)
+            new cc.MenuItemFont("Play Video", function() {
+                console.log("Play Video");
+                sdkbox.PluginYoutube.playVideo("cdgQpa1pUUE", 0, true, true);
+            }),
+            new cc.MenuItemFont("Play Play List", function() {
+                console.log("Play Play List");
+                sdkbox.PluginYoutube.playPlayList("7E952A67F31C58A3", 0, 0, true, true);
+            }),
+            new cc.MenuItemFont("Play Video List", function() {
+                console.log("Play Video List");
+                var v = ["cdgQpa1pUUE", "8aCYZ3gXfy8", "cdgQpa1pUUE"];
+                sdkbox.PluginYoutube.playVideoList(v, 0, 0, true, true);
+            })
+
             );
         menu.setPosition(size.width/2, size.height/2);
         menu.alignItemsVerticallyWithPadding(20);
         this.addChild(menu);
 
+        sdkbox.PluginYoutube.setListener({
+            onPlayEnds: function  (played_ok) {
+                console.log("Youtube play video: %s " + played_ok ? "ok" : "error");
+            }
+        });
+        sdkbox.PluginYoutube.init();
 
         return true;
     },

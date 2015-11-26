@@ -2,8 +2,9 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "PluginYoutube/PluginYoutube.h"
 
-class HelloWorld : public cocos2d::Layer
+class HelloWorld : public cocos2d::Layer, public sdkbox::YoutubeListener
 {
 public:
     // there's no 'id' in cpp, so we recommend returning the class instance pointer
@@ -14,6 +15,9 @@ public:
 
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+    
+    // youtube listener
+    void onPlayEnds( bool ok );
 };
 
 #endif // __HELLOWORLD_SCENE_H__

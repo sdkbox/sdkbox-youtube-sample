@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037144079FE4B2524AA9F606 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8C42A483CB2C3D25F765D7 /* SystemConfiguration.framework */; };
 		11B34215BEA566B326BB2AE2 /* script in Resources */ = {isa = PBXBuildFile; fileRef = FDC345F480B16A94C4294398 /* script */; };
+		192FD4D51C06F5A1003CD713 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 192FD4D41C06F5A1003CD713 /* Assets */; };
 		1A82F5FB169AC92500C4B13A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A82F5FA169AC92500C4B13A /* libsqlite3.dylib */; };
 		1AC22EDE18CA0E11007112B9 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A081B18C9DF05005C6854 /* project.json */; };
 		1AD7E0A818C9DB93004817A6 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BF21418C9DB5900FB0E1C /* main.js */; };
@@ -45,12 +47,16 @@
 		509D4AE717EBB81800697056 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D4AE617EBB81800697056 /* OpenGL.framework */; };
 		509D4AE917EBB82000697056 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D4AE817EBB82000697056 /* AppKit.framework */; };
 		509D4AEB17EBB82600697056 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D4AEA17EBB82600697056 /* IOKit.framework */; };
+		56C144D08FB78DA8A053E444 /* PluginYoutubeJSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0782478D9316C51BE78BF45F /* PluginYoutubeJSHelper.cpp */; };
+		6E8649B3B3246C7A5C96AA5E /* PluginYoutube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C044AA3ABF1C321A93B0B9E /* PluginYoutube.framework */; };
 		6FC545F8A683F57F1A68A837 /* libjscocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5324188A5C77E96F13F0C73 /* libjscocos2d iOS.a */; };
+		7FEE46EEB09A5B547BC205BF /* sdkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A34C5FBD2E13FAFE376833 /* sdkbox.framework */; };
 		9F20C9E61A5BD38A006FB50B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F20C9E11A5BBE85006FB50B /* Security.framework */; };
 		9FFEB9A91A6AB7F70095C43A /* lang in Resources */ = {isa = PBXBuildFile; fileRef = 9FFEB9A01A6AB7F70095C43A /* lang */; };
 		9FFEB9AC1A6AB7F70095C43A /* RuntimeJsImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEB9A31A6AB7F70095C43A /* RuntimeJsImpl.cpp */; };
 		9FFEB9AD1A6AB7F70095C43A /* RuntimeJsImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEB9A31A6AB7F70095C43A /* RuntimeJsImpl.cpp */; };
 		9FFEB9C21A6B86360095C43A /* SimpleConfigParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEB9C01A6B86360095C43A /* SimpleConfigParser.cpp */; };
+		A54640C8A07CC15A4EE97073 /* SDKBoxJSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AECE410AA9797B9127D5D495 /* SDKBoxJSHelper.cpp */; };
 		A92275421517C094001B78AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92275411517C094001B78AA /* QuartzCore.framework */; };
 		A92275441517C094001B78AA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92275431517C094001B78AA /* OpenGLES.framework */; };
 		A92275461517C094001B78AA /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92275451517C094001B78AA /* OpenAL.framework */; };
@@ -69,15 +75,22 @@
 		D454520C156E22BD00887EB5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D454520B156E22BD00887EB5 /* libz.dylib */; };
 		D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4545215156E28EF00887EB5 /* AppDelegate.cpp */; };
 		D6B061241803AB9F0077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B061231803AB9F0077942B /* CoreMotion.framework */; };
+		E7824425BFE737324ADBD1DF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640540968E56C7EDCEA4E884 /* WebKit.framework */; };
 		EA604ACC9634E94DB97A660F /* libsimulator iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AA4A52AA67F7A7F8BBACD0 /* libsimulator iOS.a */; };
+		EF2B4D3A9D14AC8221A27D09 /* PluginYoutubeJS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF564CDE9152C9A7413A9335 /* PluginYoutubeJS.cpp */; };
 		FD704B899FEE17BC6CBAB0F1 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41604A0CBED39FA992C08B88 /* libcocos2d iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0782478D9316C51BE78BF45F /* PluginYoutubeJSHelper.cpp */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.cpp.cpp; name = PluginYoutubeJSHelper.cpp; path = ../Classes/PluginYoutubeJSHelper.cpp; sourceTree = SOURCE_ROOT; };
+		0C044AA3ABF1C321A93B0B9E /* PluginYoutube.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginYoutube.framework; sourceTree = SOURCE_ROOT; };
+		192FD4D41C06F5A1003CD713 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = ../../../Assets; sourceTree = "<group>"; };
+		198643A9A5505A5D3C5D39D0 /* PluginYoutubeJSHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginYoutubeJSHelper.h; path = ../Classes/PluginYoutubeJSHelper.h; sourceTree = SOURCE_ROOT; };
 		1A1A081B18C9DF05005C6854 /* project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = project.json; path = ../../../project.json; sourceTree = "<group>"; };
 		1A6BF21418C9DB5900FB0E1C /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = main.js; path = ../../../main.js; sourceTree = "<group>"; };
 		1A82F5FA169AC92500C4B13A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		1A96A4F2174A3432008653A9 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../../../cocos2d-x-3.6-lib/cocos2dx/platform/third_party/ios/libraries/libcurl.a"; sourceTree = "<group>"; };
+		25A34C5FBD2E13FAFE376833 /* sdkbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sdkbox.framework; sourceTree = SOURCE_ROOT; };
 		41604A0CBED39FA992C08B88 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d iOS.a"; path = "../../../../cocos2d-x-3.6-lib/prebuilt/ios/libcocos2d iOS.a"; sourceTree = "<absolute>"; };
 		502380DB17EBB88200990C9B /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		5091731417ECDF7A00D62437 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29.png"; path = "ios/Icon-29.png"; sourceTree = "<group>"; };
@@ -107,6 +120,10 @@
 		509D4AE617EBB81800697056 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		509D4AE817EBB82000697056 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		509D4AEA17EBB82600697056 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		640540968E56C7EDCEA4E884 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		641B4F25B383368D4036E2AD /* SDKBoxJSHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKBoxJSHelper.h; path = ../Classes/SDKBoxJSHelper.h; sourceTree = SOURCE_ROOT; };
+		6EC14156BC4D2B1B3D932CCC /* PluginYoutubeJS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginYoutubeJS.hpp; path = ../Classes/PluginYoutubeJS.hpp; sourceTree = SOURCE_ROOT; };
+		9A8C42A483CB2C3D25F765D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		9F20C9E11A5BBE85006FB50B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		9FFEB99F1A6AB7F70095C43A /* CodeIDESupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeIDESupport.h; sourceTree = "<group>"; };
 		9FFEB9A01A6AB7F70095C43A /* lang */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lang; sourceTree = "<group>"; };
@@ -124,6 +141,7 @@
 		A922754B1517C094001B78AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A922754D1517C094001B78AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A922754F1517C094001B78AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AECE410AA9797B9127D5D495 /* SDKBoxJSHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKBoxJSHelper.cpp; path = ../Classes/SDKBoxJSHelper.cpp; sourceTree = SOURCE_ROOT; };
 		BA4E718619EB6E7900932425 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		C03780EA18BEE0E400FE4F13 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../src; sourceTree = "<group>"; };
 		C05D1C161923467600B808A4 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = ../../../config.json; sourceTree = "<group>"; };
@@ -135,6 +153,7 @@
 		D5324188A5C77E96F13F0C73 /* libjscocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjscocos2d iOS.a"; path = "../../../../cocos2d-x-3.6-lib/prebuilt/ios/libjscocos2d iOS.a"; sourceTree = "<absolute>"; };
 		D6B061231803AB9F0077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		FDC345F480B16A94C4294398 /* script */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = script; path = ../../../script; sourceTree = "<group>"; };
+		FF564CDE9152C9A7413A9335 /* PluginYoutubeJS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginYoutubeJS.cpp; path = ../Classes/PluginYoutubeJS.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +195,10 @@
 				FD704B899FEE17BC6CBAB0F1 /* libcocos2d iOS.a in Frameworks */,
 				6FC545F8A683F57F1A68A837 /* libjscocos2d iOS.a in Frameworks */,
 				EA604ACC9634E94DB97A660F /* libsimulator iOS.a in Frameworks */,
+				7FEE46EEB09A5B547BC205BF /* sdkbox.framework in Frameworks */,
+				6E8649B3B3246C7A5C96AA5E /* PluginYoutube.framework in Frameworks */,
+				E7824425BFE737324ADBD1DF /* WebKit.framework in Frameworks */,
+				037144079FE4B2524AA9F606 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +208,7 @@
 		15628F5B15F0F5C2000CF24B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				192FD4D41C06F5A1003CD713 /* Assets */,
 				C05D1C161923467600B808A4 /* config.json */,
 				1A1A081B18C9DF05005C6854 /* project.json */,
 				1A6BF21418C9DB5900FB0E1C /* main.js */,
@@ -269,6 +293,10 @@
 				A922754B1517C094001B78AA /* UIKit.framework */,
 				A922754D1517C094001B78AA /* Foundation.framework */,
 				A922754F1517C094001B78AA /* CoreGraphics.framework */,
+				25A34C5FBD2E13FAFE376833 /* sdkbox.framework */,
+				0C044AA3ABF1C321A93B0B9E /* PluginYoutube.framework */,
+				640540968E56C7EDCEA4E884 /* WebKit.framework */,
+				9A8C42A483CB2C3D25F765D7 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -316,6 +344,12 @@
 				9FFEB9A71A6AB7F70095C43A /* js_module_register.h */,
 				D4545215156E28EF00887EB5 /* AppDelegate.cpp */,
 				D4545216156E28EF00887EB5 /* AppDelegate.h */,
+				FF564CDE9152C9A7413A9335 /* PluginYoutubeJS.cpp */,
+				6EC14156BC4D2B1B3D932CCC /* PluginYoutubeJS.hpp */,
+				0782478D9316C51BE78BF45F /* PluginYoutubeJSHelper.cpp */,
+				198643A9A5505A5D3C5D39D0 /* PluginYoutubeJSHelper.h */,
+				AECE410AA9797B9127D5D495 /* SDKBoxJSHelper.cpp */,
+				641B4F25B383368D4036E2AD /* SDKBoxJSHelper.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -431,6 +465,7 @@
 				5091731B17ECDF7A00D62437 /* Icon-40.png in Resources */,
 				5091731C17ECDF7A00D62437 /* Icon-50.png in Resources */,
 				509D4AC417EBB2AB00697056 /* Icon-120.png in Resources */,
+				192FD4D51C06F5A1003CD713 /* Assets in Resources */,
 				5091731D17ECDF7A00D62437 /* Icon-58.png in Resources */,
 				34654DFBA747C20B97291C22 /* script in Resources */,
 			);
@@ -474,6 +509,9 @@
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
 				9FFEB9C21A6B86360095C43A /* SimpleConfigParser.cpp in Sources */,
 				509D4ABC17EBB2AB00697056 /* AppController.mm in Sources */,
+				EF2B4D3A9D14AC8221A27D09 /* PluginYoutubeJS.cpp in Sources */,
+				56C144D08FB78DA8A053E444 /* PluginYoutubeJSHelper.cpp in Sources */,
+				A54640C8A07CC15A4EE97073 /* SDKBoxJSHelper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +585,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -560,7 +599,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"\"sdkbox.framework\"",
+					"\"PluginYoutube.framework\"",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DSDKBOX_ENABLED";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../../../../cocos2d-x-3.6-lib ../../../../cocos2d-x-3.6-lib/cocos ../../../../cocos2d-x-3.6-lib/cocos/base ../../../../cocos2d-x-3.6-lib/cocos/physics ../../../../cocos2d-x-3.6-lib/cocos/math/kazmath ../../../../cocos2d-x-3.6-lib/cocos/2d ../../../../cocos2d-x-3.6-lib/cocos/gui ../../../../cocos2d-x-3.6-lib/cocos/network ../../../../cocos2d-x-3.6-lib/cocos/audio/include ../../../../cocos2d-x-3.6-lib/cocos/editor-support ../../../../cocos2d-x-3.6-lib/extensions ../../../../cocos2d-x-3.6-lib/external ../../../../cocos2d-x-3.6-lib/external/chipmunk/include/chipmunk ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/auto ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/manual";
 			};
@@ -571,6 +615,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
@@ -582,7 +627,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				LIBRARY_SEARCH_PATHS = (
+					"\"sdkbox.framework\"",
+					"\"PluginYoutube.framework\"",
+				);
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DSDKBOX_ENABLED",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../../../../cocos2d-x-3.6-lib ../../../../cocos2d-x-3.6-lib/cocos ../../../../cocos2d-x-3.6-lib/cocos/base ../../../../cocos2d-x-3.6-lib/cocos/physics ../../../../cocos2d-x-3.6-lib/cocos/math/kazmath ../../../../cocos2d-x-3.6-lib/cocos/2d ../../../../cocos2d-x-3.6-lib/cocos/gui ../../../../cocos2d-x-3.6-lib/cocos/network ../../../../cocos2d-x-3.6-lib/cocos/audio/include ../../../../cocos2d-x-3.6-lib/cocos/editor-support ../../../../cocos2d-x-3.6-lib/extensions ../../../../cocos2d-x-3.6-lib/external ../../../../cocos2d-x-3.6-lib/external/chipmunk/include/chipmunk ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/auto ../../../../cocos2d-x-3.6-lib/cocos/scripting/js-bindings/manual";
 				VALIDATE_PRODUCT = YES;
@@ -595,6 +647,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -610,7 +663,12 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = " ../../../../cocos2d-x-3.6-lib/prebuilt/ios";
+				LIBRARY_SEARCH_PATHS = (
+					"../../../../cocos2d-x-3.6-lib/prebuilt/ios",
+					"\"sdkbox.framework\"",
+					"\"PluginYoutube.framework\"",
+				);
+				OTHER_CFLAGS = "-DSDKBOX_ENABLED";
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -625,6 +683,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -640,7 +699,12 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = " ../../../../cocos2d-x-3.6-lib/prebuilt/ios";
+				LIBRARY_SEARCH_PATHS = (
+					"../../../../cocos2d-x-3.6-lib/prebuilt/ios",
+					"\"sdkbox.framework\"",
+					"\"PluginYoutube.framework\"",
+				);
+				OTHER_CFLAGS = "-DSDKBOX_ENABLED";
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,5 +1,8 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
+#ifdef SDKBOX_ENABLED
+#include "Sdkbox/Sdkbox.h"
+#endif
 
 USING_NS_CC;
 
@@ -52,6 +55,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
 // This function will be called when the app is inactive. When comes a phone call,it's be invoked too
 void AppDelegate::applicationDidEnterBackground() {
+#ifdef SDKBOX_ENABLED
+    sdkbox::sessionEnd();
+#endif
     Director::getInstance()->stopAnimation();
 
     // if you use SimpleAudioEngine, it must be pause
@@ -60,6 +66,9 @@ void AppDelegate::applicationDidEnterBackground() {
 
 // this function will be called when the app is active again
 void AppDelegate::applicationWillEnterForeground() {
+#ifdef SDKBOX_ENABLED
+    sdkbox::sessionStart();
+#endif
     Director::getInstance()->startAnimation();
 
     // if you use SimpleAudioEngine, it must resume here
